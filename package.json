@@ -1,0 +1,23 @@
+{
+  "name": "aws-stub",
+  "version": "0.0.1",
+  "description": "Alternative AWS Mock library that provides promise support",
+  "main": "index.js",
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clearly/aws-stub.git"
+  },
+  "keywords": [
+    "aws",
+    "mock"
+  ],
+  "author": "Aaron Bawcom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clearly/aws-stub/issues"
+  },
+  "homepage": "https://github.com/clearly/aws-stub#readme"
+}
