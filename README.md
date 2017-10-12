@@ -7,7 +7,7 @@ npm install aws-stub
 const AWS = require('aws-stub');
 
 function test1() {
-  const provider = AWS( 'S3', 'putItem', true );
+  const provider = AWS.Service( 'S3', 'putItem', true );
   
   const s3 = new provider.S3();
   
@@ -19,7 +19,10 @@ function test1() {
 
 
 function test2() {
-  const provider = AWS( 'EC2', 'describeImages', 'Coolness' );
+  const provider = AWS
+  .Service( 'EC2', 'describeImages', 'Coolness' )
+  .Service( 'EC2', 'runInstances', {} )
+  .Service( 'S3', 'getObject', {} );
   
   const ec2 = new provider.EC2();
   
