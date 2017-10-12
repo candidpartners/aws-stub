@@ -1,6 +1,6 @@
 {
   "name": "aws-stub",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Alternative AWS Mock library that provides promise support",
   "main": "index.js",
   "scripts": {
